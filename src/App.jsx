@@ -11,10 +11,13 @@ const [isDarkText, setIsDarkText] = useState(true)
     <div className="App">
       <Square colorValue={colorValue}
               hexValue={hexValue}
+              isDarkText={isDarkText}
       />
       <Input colorValue={colorValue}
              setColorValue={setColorValue}
-             setHexValue ={setHexValue}     
+             setHexValue ={setHexValue}
+             isDarkText={isDarkText}
+             setIsDarkText={setIsDarkText}     
       />
     </div>
   )
