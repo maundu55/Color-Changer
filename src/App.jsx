@@ -9,8 +9,7 @@ const [colorValue, setColorValue] = useState('')
     <div className="App">
       <Square colorValue={colorValue} />
       <Input colorValue={colorValue}
-             setColorValue={setColorValue}
-             onChange={onchange}
+             setColorValue={setColorValue}     
       />
     </div>
   )
